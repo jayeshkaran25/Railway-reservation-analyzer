@@ -1,6 +1,32 @@
 # Railway Reservation Analyzer
 # Reads bookings.csv and shows bookings per train and revenue per train.
 
+"""
+Project Title : Movie Rating Analyzer (PS No. 20)
+Name          : Aditya Jayesh Karan
+Enrollment No.: RU-26-01144
+Course        : Programming Fundamentals Using Python
+Programme     : B.Tech CSE (AI & ML) / First Semester
+
+Description
+-----------
+Reads movie data from a CSV file (Movie, Genre, Rating), analyses
+movie ratings using Pandas, and calculates the average, maximum,
+and minimum ratings.
+
+The program identifies the top-rated and lowest-rated movies,
+calculates genre-wise average ratings using grouping, and displays
+the results through visualizations.
+
+It generates at least two Matplotlib charts (bar chart and
+histogram) to represent movie ratings and genre-wise statistics.
+
+The program also handles invalid or missing data by skipping
+invalid rows and cleaning the dataset before performing analysis.
+"""
+
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
